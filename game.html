@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/c1df782baf.js" crossorigin="anonymous"></script>
+    <title>Игра</title>
+</head>
+
+<body class="game-body-class">
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <img src="images/logo2.png" alt="">
+                <h1>Triumf ta<span>x</span>i</h1>
+            </div>
+
+            <nav class="menu">
+                <a href="index1.html">Начало</a>
+                <a href="zanas.html">За нас</a>
+                <a href="#">Игра</a>
+                <a href="gallery.html">Галерия</a>
+                <div class="dropdown">
+                    <a href="uslugi.html">Услуги</a>
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown-content">
+                        <a href="zabraveni.html">Забравени вещи</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="navbar-icons">
+                <div id="navbar" class="fas fa-bars"></div>
+                <div class="contact"><a href="#">Контакти</a></div>
+            </div>
+
+            <div class="contact-form">
+
+                <form action="" class="navbar-form">
+                    <div id="form-close" class="fas fa-times"></div>
+
+                    <div class="names-section">
+                        <label for="fname">Име:</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Въведи име"><br>
+                        <label for="email">Имейл:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Въведи имейл">
+                        <label for="telephone">Телефон:</label><br>
+                        <input type="text" id="telephone" name="telephone" placeholder="Вашият телефон">
+                        <td colspan="2">
+                            <label for="message-label">Съобщение:</label><br>
+                            <textarea class="textarea-form" name="" id="message-label" cols="30" rows="5"></textarea>
+                        </td>
+
+                        <button class="form-btn"> Изпрати </button>
+                    </div>
+                </form>
+
+            </div>
+
+        </header>
+
+        <div id="game-container">
+            <!-- Cards will be dynamically generated here -->
+        </div>
+        <div id="message"></div>
+
+    </div>
+
+    <footer class="main-footer">
+        <div class="main-inner-footer">
+            <div class="footer-content">
+                <img src="images/logo.png" alt="">
+                <p class="logo-text">На линия сме 24/7!</p>
+            </div>
+
+            <div class="footer-content">
+                <a href="index1.html">Начало</a>
+                <a href="zanas.html">За нас</a>
+                <a href="#">Игра</a>
+                <a href="gallery.html">Галерия</a>
+                <a href="uslugi.html">Услуги</a>
+            </div>
+
+            <div class="footer-content">
+                <table>
+                    <tr>
+                        <th>052</th>
+                        <td rowspan="3">Поръчай такси<br> на удобен за теб<br> телефонен оператор</td>
+                        <th>0882</th>
+                        <td>Вече и на:</td>
+                    </tr>
+                    <tr>
+                        <th>0879</th>
+                        <th>0898</th>
+                        <td rowspan="3">64 444</td>
+                    </tr>
+                    <tr>
+                        <th>0882</th>
+                        <th>0878</th>
+                    </tr>
+                    <tr>
+                        <th>0898</th>
+                        <td rowspan="3">64 444</td>
+                        <th>0877</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer-second-part">
+            <p>2023 © Триумф Такси. Всички права запазени.</p>
+            <img src="images/logo-triumf.png" alt="">
+        </div>
+    </footer>
+
+    <div class="sources">
+        <a href="https://www.facebook.com/triumftaxi.varna" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/triumftaxivarna/" class="fa fa-instagram"></a>
+        <a href="https://twitter.com/triumftaxi64" class="fa fa-twitter"></a>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
